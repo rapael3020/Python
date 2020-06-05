@@ -1,0 +1,10 @@
+print("문자열 입력:")
+a = input()
+print("정수 입력:")
+b = int(input())
+print("실수 입력:")
+c = float(input())
+
+print("a의 값:{}type:{}".format(a,type(a)))
+print("b의 값:{}type:{}".format(b,type(b)))
+print("c의 값:{}type:{}".format(c,type(c)))

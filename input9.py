@@ -1,0 +1,11 @@
+print("<결과>")
+name = input("학생 이름: ")
+korean = float(input("국어 점수: "))
+English = float(input("영어 점수: "))
+math = float(input("수학 점수: "))
+
+add = round((korean + English + math),3)
+avg = round(add/3,2)
+print("==================학생정보==================")
+print("이름\t국어\t영어\t수학\t합계\t평균")
+print(name,"\t",korean,"\t",English,"\t",math,"\t",add,"\t",avg)
